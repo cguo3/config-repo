@@ -28,15 +28,16 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://54.235.233.109:8761/eureka/
+      # defaultZone: http://54.235.233.109:8761/eureka/
+      defaultZone: http://localhost:8761/eureka
 
-logging:
-  level:
-    com.netflix: WARN
-    org.springframework.web: WARN
-    com.itemsharing: DEBUG
+# logging:
+#   level:
+#     com.netflix: WARN
+#     org.springframework.web: WARN
+#     com.itemsharing: DEBUG
 
-security:
-  oauth2:
-    resource:
-      userInfoUri: http://54.235.233.109:8901/user
+# security:
+#   oauth2:
+#     resource:
+#       userInfoUri: http://54.235.233.109:8901/user
