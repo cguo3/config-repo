@@ -37,6 +37,9 @@ eureka:
 #     org.springframework.web: WARN
 #     com.itemsharing: DEBUG
 
+security:
+ basic:
+   enabled: false
 # security:
 #   oauth2:
 #     resource:
