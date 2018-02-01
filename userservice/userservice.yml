@@ -46,8 +46,8 @@ security:
 # signing:
 #   key: 345345fsdgsf5345
   
-# logging:
-#   level:
-#     com.netflix: WARN
-#     org.springframework.web: WARN
-#     com.itemsharing: DEBUG
+logging:
+  level:
+    com.netflix: WARN
+    org.springframework.web: WARN
+    com.itemsharing: DEBUG
